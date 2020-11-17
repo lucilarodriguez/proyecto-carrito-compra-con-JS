@@ -29,7 +29,7 @@ function addToCartClicked(event) {
   addItemToShoppingCart(itemTitle, itemPrice, itemImage);
 }
 
-//Si se suma un artículo repetidas veces que de aumetente la cantidad en el carrito
+//Si se suma un artículo repetidas veces que se aumente la cantidad en el carrito
 
 function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
   const elementsTitle = shoppingCartItemsContainer.getElementsByClassName(
@@ -122,7 +122,7 @@ function removeShoppingCartItem(event) {
   updateShoppingCartTotal();
 }
 
-//Modificar antidad de un artículo en el carrito
+//Modificar cantidad de un artículo en el carrito
 function quantityChanged(event) {
   const input = event.target;
   input.value <= 0 ? (input.value = 1) : null;
