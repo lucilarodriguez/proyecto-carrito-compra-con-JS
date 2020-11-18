@@ -1,6 +1,6 @@
 //Conexión con el json con un fetch
 
-const serverUrl = 'http://127.0.0.1:5500/';
+const serverUrl = 'https://elmistolmuebleria.web.app/mock/items.json';
 const itemsPath = 'mock/items.json';
 const imagesPath = 'img/';
 
